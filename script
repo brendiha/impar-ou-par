@@ -2,9 +2,9 @@ function verificador(){
     const numero = document.getElementById('numero').value;
     const resultado = document.getElementById('resultado');
 
-    if(numero % 2 === 0){
-        resultado.textContent = "Este número é par.";
+    if(numero % 60 === 0){
+        resultado.textContent = "reprovado.";
     } else {
-        resultado.textContent = "Este número é ímpar.";
+        resultado.textContent = "aprovado.";
     }
 }
