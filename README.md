@@ -1,1 +1,0 @@
-# impar-ou-par
