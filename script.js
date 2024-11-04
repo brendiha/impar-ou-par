@@ -3,8 +3,8 @@ function verificador(){
     const resultado = document.getElementById('resultado');
 
     if(numero % 2 === 0){
-        resultado.textContent = "aprovado.";
+        resultado.textContent = "Este número é par.";
     } else {
-        resultado.textContent = "reprovado.";
+        resultado.textContent = "Este número é ímpar.";
     }
 }
