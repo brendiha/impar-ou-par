@@ -1,5 +1,7 @@
 function verificador(){
-    const numero = document.getElementById('numero').value;
+    const numero = document.getElementById('numero1').value;
+    const numero = document.getElementById('numero2').value;
+    const numero = document.getElementById('numero3').value;
     const resultado = document.getElementById('resultado');
 
     if(media  >= 60){
