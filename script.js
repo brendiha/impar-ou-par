@@ -6,6 +6,7 @@ function verificador() {
     var media= (parseFloat(n1)) + parseFloat(n2) + parseFloat(n3) / 3;
     if (media >= 60) {
         resultado.textContent = "aprovado.";
-    } else
+    } else {
         resultado.textContent = "reprovado.";
+    }
 }
