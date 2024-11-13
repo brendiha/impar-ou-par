@@ -8,8 +8,5 @@ const media+ (parseFloat(numero1))+parseFloat(numero2)+parseFloat(numero3)/3;
         resultado.textContent = "aprovado.";
     } else {
         resultado.textContent = "reprovado.";
+    
     }
-    const numero = document.getElementById('numero').value;
-    const resultado = document.getElementById('resultado');
-
-}
