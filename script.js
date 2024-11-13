@@ -13,8 +13,3 @@ function verificador(){
     const resultado = document.getElementById('resultado');
 
 }
-if(numero % 60 === 50){
-    resultado.textContent = "aprovado.";
-} else {
-    resultado.textContent = "reprovado.";
-}
